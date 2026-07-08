@@ -24,7 +24,7 @@ public class mainMenu extends Application {
 
         //подргрузка данных из бд
         for (int i = 0; i < 50; i++){
-            var r = new Rectangle(200,100);
+            var r = new Rectangle(700,100);
             r.setFill(Color.LIGHTBLUE);
             r.setStroke(Color.BLACK);
             chats.getChildren().add(r);
